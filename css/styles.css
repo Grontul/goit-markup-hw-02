@@ -1,0 +1,202 @@
+:root {
+  --text-color: #757575;
+  --accent: #2196f3;
+  --heading-color: #212121;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --backgroud-dark: #2f303a;
+  --background-grey: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* components */
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-web {
+  color: var(--accent);
+}
+
+.header .logo {
+  color: var(--black-color);
+}
+
+.footer .logo {
+  color: var(--white-color);
+}
+
+/* header */
+
+.navigation-links a,
+.contacts-links a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-links a {
+  color: var(--heading-color);
+}
+
+.contacts-links a {
+  color: var(--text-color);
+}
+
+.navigation-links a:hover,
+.navigation-links a:focus,
+.contacts-links a:hover,
+.contacts-links a:focus,
+.address a:hover,
+.address a:focus {
+  color: var(--accent);
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--backgroud-dark);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: 0;
+  color: var(--white-color);
+  background-color: var(--accent);
+}
+
+/* Benefits */
+
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+
+/* What are we doing */
+
+.employment h2 {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+/* Our team */
+
+.our-team {
+  background-color: var(--background-grey);
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--backgroud-dark);
+}
+
+.footer .logo {
+  color: var(--white-color);
+}
+
+.address {
+  font-style: normal;
+  color: var(--white-color);
+}
+
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Work filter */
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  color: var(--heading-color);
+  background-color: var(--background-grey);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent);
+}
+
+/* Work list */
+
+.work-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--heading-color);
+}
+
+.work-type {
+  font-size: 16px;
+  line-height: 1.87;
+}
